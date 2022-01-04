@@ -1,0 +1,132 @@
+{
+	abstract
+	id Oct.Items.Weapons.Stone
+	type WeaponItemType
+	inherit Oct.Items.Buffable
+    
+	indoorDecayDays = 20000
+	outdoorDecayDays = 20000
+}
+{
+	abstract
+	id Oct.Items.Weapons.Wood
+	type WeaponItemType
+	inherit Oct.Items.Buffable
+    
+	indoorDecayDays = 20000
+	outdoorDecayDays = 20000
+}
+{
+	abstract
+	id Oct.Items.Weapons.Wood.Fine
+	type WeaponItemType
+	inherit Oct.Items.Buffable
+    
+	indoorDecayDays = 20000
+	outdoorDecayDays = 20000
+}
+{
+	abstract
+	id Oct.Items.Weapons.Bronze
+	type WeaponItemType
+	inherit Oct.Items.Buffable
+    
+	indoorDecayDays = 20000
+	outdoorDecayDays = 20000
+}
+{
+	abstract
+	id Oct.Items.Weapons.Steel
+	type WeaponItemType
+	inherit Oct.Items.Buffable
+    
+	indoorDecayDays = 20000
+	outdoorDecayDays = 20000
+}
+{
+	abstract
+	id Oct.Items.Clothing.Cloth
+	type InstancedItemType
+	
+	indoorDecayDays = 20000
+	outdoorDecayDays = 20000
+    
+    substances =
+    [
+        <Oct.Items.Substances.Cloth>
+    ]
+}
+{
+	abstract
+	id Oct.Items.Clothing.Fine
+	type InstancedItemType
+    inherit Oct.Items.Buffable
+	
+	indoorDecayDays = 20000
+	outdoorDecayDays = 20000
+    
+    substances =
+    [
+        <Oct.Items.Substances.FineCloth>
+    ]
+}
+{
+	abstract
+	id Oct.Items.Armor.Hide
+	type InstancedItemType
+    inherit Oct.Items.Buffable
+	
+	indoorDecayDays = 20000
+	outdoorDecayDays = 20000
+    autonomousPerMember = 1
+    
+    substances = 
+    [
+        <Oct.Items.Substances.Hide>
+    ]
+}
+{
+	abstract
+	id Oct.Items.Armor.Leather
+	type InstancedItemType
+    inherit Oct.Items.Buffable
+	
+	indoorDecayDays = 20000
+	outdoorDecayDays = 20000
+    autonomousPerMember = 1
+    
+    substances = 
+    [
+        <Oct.Items.Substances.Leather>
+    ]
+}
+{
+	abstract
+	id Oct.Items.Armor.Bronze
+	type InstancedItemType
+    inherit Oct.Items.Buffable
+	
+	indoorDecayDays = 20000
+	outdoorDecayDays = 20000
+    autonomousPerMember = 1
+    
+    substances = 
+    [
+        <Oct.Items.Substances.Bronze>
+    ]
+}
+{
+	abstract
+	id Oct.Items.Armor.Steel
+	type InstancedItemType
+    inherit Oct.Items.Buffable
+	
+	indoorDecayDays = 20000
+	outdoorDecayDays = 20000
+    autonomousPerMember = 1
+    
+    substances = 
+    [
+        <Oct.Items.Substances.Steel>
+    ]
+}
